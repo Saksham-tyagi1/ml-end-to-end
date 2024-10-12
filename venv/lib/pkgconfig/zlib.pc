@@ -1,0 +1,13 @@
+prefix=/Users/sakshamtyagi/Desktop/Projects/ml-end-to-end/venv
+exec_prefix=/Users/sakshamtyagi/Desktop/Projects/ml-end-to-end/venv
+libdir=/Users/sakshamtyagi/Desktop/Projects/ml-end-to-end/venv/lib
+sharedlibdir=/Users/sakshamtyagi/Desktop/Projects/ml-end-to-end/venv/lib
+includedir=/Users/sakshamtyagi/Desktop/Projects/ml-end-to-end/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
